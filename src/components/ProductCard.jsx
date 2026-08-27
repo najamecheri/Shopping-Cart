@@ -8,23 +8,23 @@ export default function ProductCard({item}) {
             <h2 className="text-2xl font-bold">{item.name}</h2>
 
             <div className="flex justify-between text-sm">
-                <span  className="text-gray-500">Size :</span>
+                <span  className="text-gray-500">Size </span>
                 <span> {item.size}</span>
             </div>
 
             <div  className="flex justify-between text-sm">
-                <span className="text-gray-500">Color :</span>
+                <span className="text-gray-500">Color </span>
                 <span> {item.color}</span>
             </div>
 
              <div className="flex justify-between text-sm font-medium">
-                 <span className="text-gray-500">Price :</span>
+                 <span className="text-gray-500">Price </span>
                  <span> {item.price}</span>
              </div>
 
              <button
               className="mt-5 w-full cursor-pointer rounded-se-2xl bg-black p-3 text-white transition-colors duration-200 hover:bg-amber-800"
-                >Add to Cart</button> <br/>
+            >Add to Cart</button> <br/>
              <br/>
         </div>
         </div>
